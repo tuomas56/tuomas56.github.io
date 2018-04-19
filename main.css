@@ -81,6 +81,8 @@ body.pg-loaded > .inner {
     padding-top: 10px;
     padding-left: 0px;
     padding-right: 0px;
+    margin-left: 10vw !important;
+    margin-right: 10vw !important;
 }
 
 .list-group {
