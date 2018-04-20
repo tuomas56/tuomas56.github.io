@@ -53,7 +53,7 @@ body.pg-loaded > .inner {
     z-index: 10;
 }
 
-.navbar.js-has-stuck:not(.js-is-sticky) {
+.navbar.js-has-stuck:not(.is_stuck) {
     animation: contract 200ms forwards;
 }
 
@@ -62,7 +62,7 @@ body.pg-loaded > .inner {
     position: relative;
 }
 
-.navbar.js-is-sticky {
+.navbar.is_stuck {
     animation: expand 200ms forwards;
 }
 
