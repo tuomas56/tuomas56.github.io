@@ -170,9 +170,9 @@ window.updateSelectBox = () => {
 
 function flink(qp, r) {
     if (qp) {
-        return `<a class='float-right btn' href="${r}">Question Paper</a>`
+        return `<a class='float-right btn' target="_blank" href="${r}">Question Paper</a>`
     } else {
-        return `<a class='float-right btn' href="${r}">Mark Scheme</a>`
+        return `<a class='float-right btn' target="_blank" href="${r}">Mark Scheme</a>`
     }
 }
 
