@@ -1,6 +1,14 @@
 window.selectRandom = () => {
     var items = $("#target-list > li");
-    if (items.length > 0) {
+    if (items.length > 1) {
+        var item = items[Math.floor(Math.random()*items.length)];
+        console.log('items")')
+        $("#target-list").html('')
+        $("#target-list").append(item)
+    } else if (items.length == 1) {
+        $("#target-list").html('')
+        updateListing()
+        var items = $("#target-list > li");
         var item = items[Math.floor(Math.random()*items.length)];
         console.log('items")')
         $("#target-list").html('')
