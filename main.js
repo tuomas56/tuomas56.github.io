@@ -15,12 +15,7 @@ $(() => {
     $(".sticky-bar").stick_in_parent();
 
     $(".sticky-bar").on("sticky_kit:stick", () => {
-        $(".sticky-bar").addClass("js-is-sticky")
         $(".sticky-bar").addClass("js-has-stuck")
-    });
-
-    $(".sticky-bar").on("sticky_kit:unstick", () => {
-        $(".sticky-bar").removeClass("js-is-sticky")
     });
 
     var xhr = new XMLHttpRequest();
