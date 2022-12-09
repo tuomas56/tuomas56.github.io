@@ -1,11 +1,21 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Inter:wght@500&family=Roboto&display=swap");
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ .vr {
+  display: inline-block;
+  align-self: stretch;
+  width: 2px;
+  min-height: 1em;
+  background-color: currentColor;
+  opacity: 0.25;
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -355,7 +365,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Fira Code", "Consolas", monospace;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   line-height: 1.2;
 }
